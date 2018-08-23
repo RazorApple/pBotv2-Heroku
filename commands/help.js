@@ -24,6 +24,10 @@ const embed = {
       "value": "See the info of this bot."
     },
     {
+      "name": "+uptime",
+      "value": "bot uptime."
+    },
+    {
       "name": "+clear",
       "value": "Clear somebodys messasges"
     },
