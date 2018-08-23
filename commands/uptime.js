@@ -15,10 +15,6 @@ const embed = {
   ]
 };
 message.channel.send({embed});
-};
-
-message.author.send({embed})
-
 }
 module.exports.help = {
   name: "uptime"
