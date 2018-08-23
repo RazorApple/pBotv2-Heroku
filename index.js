@@ -9,7 +9,7 @@ let xp = require("./xp.json");
 let purple = botconfig.purple;
 let cooldown = new Set();
 let cdseconds = 5;
-
+process.on('unhandledRejection', console.error);
 fs.readdir("./commands/", (err, files) => {
 
   if(err) console.log(err);
